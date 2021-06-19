@@ -1,0 +1,34 @@
+{
+  "name": "@dbayarchyk/design-system-components",
+  "version": "0.0.0",
+  "description": "Design System Components",
+  "main": "dist/index.cjs.js",
+  "module": "dist/custom-elements/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/custom-elements/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/design-system/design-system.esm.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "dependencies": {
+    "@dbayarchyk/design-system-design-tokens": "0.0.0",
+    "@stencil/core": "^2.0.1",
+    "classnames": "^2.3.1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@stencil/react-output-target": "0.0.9",
+    "@stencil/sass": "^1.4.1"
+  }
+}

@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+
+.my-body {
+  max-width: var(--line-length);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+  font-family: var(--font-family);
+  margin: 0;
+}
+
+.my-body-light {
+  font-weight: var(--font-weight-light);
+}
+
+.my-body-regular {
+  font-weight: var(--font-weight-regular);
+}
+
+.my-body-medium {
+  font-weight: var(--font-weight-medium);
+}

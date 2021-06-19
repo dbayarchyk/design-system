@@ -1,0 +1,28 @@
+:host {
+  display: grid;
+}
+
+:host(.my-stack-xs) {
+  grid-row-gap: var(--space-xs);
+}
+
+:host(.my-stack-s) {
+  margin-top: var(--space-s);
+}
+
+:host(.my-stack-m) {
+  grid-row-gap: var(--space-m);
+}
+
+:host(.my-stack-l) {
+  grid-row-gap: var(--space-l);
+}
+
+:host(.my-stack-xl) {
+  grid-row-gap: var(--space-xl);
+}
+
+:host(.my-stack-2xl) {
+  grid-row-gap: var(--space-2xl);
+}
+

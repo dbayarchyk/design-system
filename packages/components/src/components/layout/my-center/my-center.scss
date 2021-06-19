@@ -1,0 +1,34 @@
+:host {
+  display: grid;
+  justify-content: center;
+}
+
+:host(.my-center-xs) {
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+}
+
+:host(.my-center-s) {
+  padding-left: var(--space-s);
+  padding-right: var(--space-s);
+}
+
+:host(.my-center-m) {
+  padding-left: var(--space-m);
+  padding-right: var(--space-m);
+}
+
+:host(.my-center-l) {
+  padding-left: var(--space-l);
+  padding-right: var(--space-l);
+}
+
+:host(.my-center-xl) {
+  padding-left: var(--space-xl);
+  padding-right: var(--space-xl);
+}
+
+:host(.my-center-2xl) {
+  padding-left: var(--space-2xl);
+  padding-right: var(--space-2xl);
+}

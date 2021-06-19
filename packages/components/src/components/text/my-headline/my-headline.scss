@@ -1,0 +1,33 @@
+:host {
+  display: block;
+}
+
+.my-headline {
+  max-width: var(--line-length);
+  font-family: var(--font-family);
+  margin: 0;
+}
+
+h1.my-headline {
+  font-size: var(--headline-1-font-size);
+  line-height: var(--headline-1-line-height);
+  font-weight: var(--headline-1-font-weight);
+}
+
+h2.my-headline {
+  font-size: var(--headline-2-font-size);
+  line-height: var(--headline-2-line-height);
+  font-weight: var(--headline-2-font-weight);
+}
+
+h3.my-headline {
+  font-size: var(--headline-3-font-size);
+  line-height: var(--headline-3-line-height);
+  font-weight: var(--headline-3-font-weight);
+}
+
+h4.my-headline {
+  font-size: var(--headline-4-font-size);
+  line-height: var(--headline-4-line-height);
+  font-weight: var(--headline-4-font-weight);
+}

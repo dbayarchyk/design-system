@@ -1,0 +1,153 @@
+# Choices
+
+color:
+  purple:
+    100: &color-purple-100 "#faf5ff"
+    200: &color-purple-200 "#e9d8fd"
+    300: &color-purple-300 "#d6bcfa"
+    400: &color-purple-400 "#b794f4"
+    500: &color-purple-500 "#9f7aea"
+    600: &color-purple-600 "#805ad5"
+    700: &color-purple-700 "#6b46c1"
+    800: &color-purple-800 "#553c9a"
+    900: &color-purple-900 "#44337a"
+
+  gray:
+    100: &color-gray-100 "#f7fafc"
+    200: &color-gray-200 "#edf2f7"
+    300: &color-gray-300 "#e2e8f0"
+    400: &color-gray-400 "#cbd5e0"
+    500: &color-gray-500 "#a0aec0"
+    600: &color-gray-600 "#718096"
+    700: &color-gray-700 "#4a5568"
+    800: &color-gray-800 "#2d3748"
+    900: &color-gray-900 "#1a202c"
+
+  red:
+    100: &color-red-100 "#fff5f5"
+    200: &color-red-200 "#fed7d7"
+    300: &color-red-300 "#feb2b2"
+    400: &color-red-400 "#fc8181"
+    500: &color-red-500 "#f56565"
+    600: &color-red-600 "#e53e3e"
+    700: &color-red-700 "#c53030"
+    800: &color-red-800 "#9b2c2c"
+    900: &color-red-900 "#742a2a"
+
+  white: &color-white "#ffffff"
+  black: &color-black "#000000"
+  transparent: &color-transparent transparent
+
+space:
+  xs: &space-xs 4px
+  s: &space-s 8px
+  m: &space-m 16px
+  l: &space-l 24px
+  xl: &space-xl 32px
+  2xl: &space-2xl 48px
+  3xl: &space-3xl 64px
+  4xl: &space-3xl 80px
+
+font-weight:
+  light: &font-weight-light 300
+  regular: &font-weight-regular 400
+  medium: &font-weight-medium 500
+  bold: &font-weight-bold 700
+
+font-family: &font-family "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'"
+
+line-length: 70ch
+
+border-width:
+  xs: &border-width-xs 1px
+  s: &border-width-s 2px
+  m: &border-width-m 4px
+  l: &border-width-l 8px
+
+border-radius:
+  s: &border-radius-s 2px
+  m: &border-radius-m 4px
+  l: &border-radius-lg 8px
+
+# Decisions
+
+# TODO: point to the purple colors via alias?
+color-primary:
+  100: &color-primary-100 "#faf5ff"
+  200: &color-primary-200 "#e9d8fd"
+  300: &color-primary-300 "#d6bcfa"
+  400: &color-primary-400 "#b794f4"
+  500: &color-primary-500 "#9f7aea"
+  600: &color-primary-600 "#805ad5"
+  700: &color-primary-700 "#6b46c1"
+  800: &color-primary-800 "#553c9a"
+  900: &color-primary-900 "#44337a"
+
+color-error:
+  100: *color-red-100
+  200: *color-red-200
+  300: *color-red-300
+  400: *color-red-400
+  500: *color-red-500
+  600: *color-red-600
+  700: *color-red-700
+  800: *color-red-800
+  900: *color-red-900
+
+background-color: *color-white
+focus-ring-color:  rgba(159, 122, 234, 0.4)
+
+# Typography
+headline:
+  1:
+    font-size: 68px
+    line-height: 72px
+    font-weight: *font-weight-medium
+  2:
+    font-size: 42px
+    line-height: 48px
+    font-weight: *font-weight-medium
+  3:
+    font-size: 26px
+    line-height: 40px
+    font-weight: *font-weight-medium
+  4:
+    font-size: 16px
+    line-height: 24px
+    font-weight: *font-weight-bold
+
+body:
+  font-size: 16px
+  line-height: 24px
+  font-weight: *font-weight-medium
+
+small:
+  font-size: 14px
+  line-height: 24px
+  font-weight: *font-weight-regular
+
+button:
+  border-radius: *border-radius-m
+  border-width: *border-width-s
+  font-size: 16px
+  line-height: 24px
+  min-width: 128px
+  font-weight: *font-weight-medium
+  primary:
+    background-color: *color-primary-600
+    color: *color-white
+    hover:
+      background-color: *color-primary-700
+      color: *color-white
+  secondary:
+    background-color: *color-white
+    color: *color-primary-600
+    hover:
+      background-color: *color-primary-100
+      color: *color-primary-700
+  tertiary:
+    background-color: *color-transparent
+    color: *color-primary-600
+    hover:
+      background-color: *color-transparent
+      color: *color-primary-700

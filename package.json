@@ -1,0 +1,7 @@
+{
+  "name": "@dbayarchyk/design-system",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
+}

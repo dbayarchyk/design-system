@@ -1,0 +1,12 @@
+:host {
+  display: block;
+}
+
+.my-small {
+  max-width: var(--line-length);
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'";
+  font-weight: regular;
+  margin: 0;
+}
